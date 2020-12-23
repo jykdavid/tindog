@@ -1,27 +1,5 @@
-#title {
-    background-color: #FF4C68;
-    color: white;
-}
-
-.container-fluid {
-    padding: 3% 15% 7%;
-}
-
-h1 {
-    font-family: "Montserrat";
+h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
-
-h2 {
-    font-weight: 900;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3 {
-    font-weight: bold;
 }
 
 p {
@@ -31,6 +9,34 @@ p {
 body {
     font-family: "Montserrat";
     font-weight: 400;
+    text-align: center;
+}
+
+#title {
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Headings */
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #FF4C68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
 }
 
 /* Navigation Bar */
@@ -76,13 +82,11 @@ body {
 
 #features {
     padding: 7% 15%;
-    background-color: white;
     position: relative;
     top: 20px;
 }
 
 .feature-box {
-    text-align: center;
     padding: 3%;
 }
 
@@ -98,10 +102,12 @@ body {
 /* Testimonial Section */
 
 #testimonials {
-    text-align: center;
-    background-color: #FF4C68;
-    color: white;
     padding-top: 20px;
+}
+
+.testimonial-heading {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .testimonial-image {
@@ -117,8 +123,6 @@ body {
 /* Press Section */
 
 #press {
-    background-color: #FF4C68;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -131,7 +135,11 @@ body {
 
 #pricing {
     padding: 100px;
-    text-align: center;
+}
+
+.price-heading {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column {
@@ -141,15 +149,7 @@ body {
 /* Call to Action */
 
 #cta {
-    background-color: #FF4C68;
-    text-align: center;
-    color: white;
     padding: 5% 15% 5%;
-}
-
-.cta-heading {
-    font-weight: 900;
-    font-size: 3.5rem;
 }
 
 .download-cta {
@@ -159,8 +159,6 @@ body {
 /* Footer */
 
 #footer {
-    text-align: center;
-    background-color: white;
     padding: 3% 15%;
 }
 
